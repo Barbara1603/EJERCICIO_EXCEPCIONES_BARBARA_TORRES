@@ -7,10 +7,7 @@
 
 
 
-class ejercicio_2 {
-
-};
-
-
+int divideError(int a, int b);
+int divideException(int a, int b);
 
 #endif //EJERCICIO_2_H
