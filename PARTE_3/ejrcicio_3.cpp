@@ -3,7 +3,6 @@
 //
 
 #include "ejrcicio_3.h"
-#include <iostream>
 #include <stdexcept>
 
 void func3() {
