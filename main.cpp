@@ -2,6 +2,7 @@
 #include "main.h"
 #include "PARTE_1/banderas_error.h"
 #include "PARTE_2/ejercicio_2.h"
+#include "PARTE_3/ejrcicio_3.h"
 #include <iostream>
 #include <stdexcept>
 
@@ -29,7 +30,20 @@ int main() {
             std::cout << "Excepción capturada: " << e.what() << std::endl;
         }
 
+//EJERCICIO 3
+
+
+    try {
+        func1();
+    }
+    catch (const std::runtime_error& e) {
+        std::cout << "Excepción capturada en main: " << e.what() << std::endl;
+    }
+
+
         return 0;
+
+//EJERCICO 4
 
 
 
